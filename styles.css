@@ -63,6 +63,17 @@ body
     color: #1d2b3a;
     border-radius: 2px;
 }
+.inputBox:nth-child(3) input:focus ~ span,
+.inputBox:nth-child(3) input:valid ~ span
+{
+    background: #1d2b3a;
+    color: #00dfc4;
+    border-top: 1px solid #00dfc4;
+    border-bottom: 1px solid #00dfc4;
+    border-left: none;
+    border-right: none;
+    
+}
 .inputBox input:focus,
 .inputBox input:valid
 {
